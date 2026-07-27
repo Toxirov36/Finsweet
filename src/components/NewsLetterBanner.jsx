@@ -6,8 +6,11 @@ const NewsletterBanner = () => (
       <p className="text-indigo-200 text-xs tracking-widest uppercase mb-2">Newsletter</p>
       <h3 className="text-white text-2xl font-bold leading-tight">Subscribe our News Letter<br/>to get Latest Updates.</h3>
     </div>
-    <div className="relative z-10 flex gap-3 w-80">
+    <div className="relative z-10 flex gap-3 w-96">
       <input type="email" placeholder="Paresh@Pixeto.com" className="flex-1 px-4 py-3 rounded text-sm bg-white outline-none"/>
+      <button className="bg-orange-400 hover:bg-orange-500 text-white px-6 py-3 rounded text-sm font-semibold transition-colors whitespace-nowrap">
+        Subscribe
+      </button>
     </div>
   </div>
 );
